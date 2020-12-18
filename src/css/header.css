@@ -1,5 +1,43 @@
-#home {
-    color: var(--elementColor);
-    /* color: aqua; */
-    font-weight: 500;
+#hom {
+   display: flex;
 }
+#nav-wrap ul, #nav-wrap li {
+   margin: 0;
+   padding: 0;
+   border: none;
+   outline: none;
+
+}
+
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   letter-spacing: 2.5px;
+   display: flex;
+   background-color: black;
+   text-transform: uppercase;
+
+   height: 36px;
+   z-index: 1000;
+}
+
+.nav {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+.nav > li {
+   list-style: none;
+}
+.nav > li > a{
+   padding: 10px 13px;
+   color: white;
+   text-decoration: none;
+}
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #F06000; }
