@@ -30,15 +30,15 @@ function Header() {
                     <a className="smoothscroll" href="#about">
                         <div className="view-more">
                             {/* {networks} */}
-                     View My Work
-                     <span className="scroll-icon "><i className="icon-down-circle"></i></span>
+                            View My Work
+                            <span className="scroll-icon "><i class="fas fa-arrow-alt-circle-down fa-lg"></i></span>
                         </div>
                     </a>
                 </div>
             </div>
 
             <p className="scrolldown">
-                <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+                <a className="smoothscroll" href="#about"><i class="fas fa-arrow-alt-circle-down fa-2x"></i></a>
             </p>
 
             <div className="front-header"></div>
@@ -49,6 +49,7 @@ function Header() {
             <div className="stars3"></div>
             <div className="twinkling"></div>
         </header>
+        
     )
 }
 

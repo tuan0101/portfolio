@@ -1,6 +1,8 @@
 #hom {
    display: flex;
 }
+
+/* Nav Bar */
 #nav-wrap ul, #nav-wrap li {
    margin: 0;
    padding: 0;
@@ -10,14 +12,16 @@
 }
 
 #nav-wrap {
+   display: flex;
+   position: fixed;
    font: 12px 'opensans-bold', sans-serif;
    letter-spacing: 2.5px;
-   display: flex;
-   background-color: black;
+   background-color: rgba(0, 0, 0, 0.2);
    text-transform: uppercase;
-
+   width: 100%;
    height: 36px;
-   z-index: 1000;
+   z-index: 100;
+   margin: 0 auto;
 }
 
 .nav {
@@ -41,3 +45,188 @@
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
+
+
+/* ------------------------------------------------------------------ */
+/*  Home
+/* ------------------------------------------------------------------ */
+
+/* video {
+   object-fit: cover;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+   height: 800px;
+   min-height: 500px;
+   z-index: -1;
+} */
+
+.twinkling, .stars, .stars1, .stars2, .stars3, .header-background, .front-header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   display: block;
+}
+
+.stars {
+   background: black url(../Images/stars.png) repeat top center;
+   z-index: 0;
+}
+
+.stars1, .stars2, .stars3 {
+   background: url(../Images/stars.png) repeat top center;
+   z-index: 0;
+} 
+
+.stars1 {
+   animation: moving-stars 15 0s linear infinite;
+}
+
+.stars2 {
+   transform: scaleY(-1);
+   left: 200px !important;
+}
+
+.stars3 {
+   transform: scaleY(-1);
+   left: 400px !important;
+}
+
+.twinkling {
+   background: transparent url(../Images/twinkling.png) repeat top center;
+   animation: move-twinkling-back 200s linear infinite;
+   z-index: 0;
+}
+
+@keyframes move-twinkling-back {
+   from {background-position: 0 0;}
+   to {background-position: -10000px 5000px;}
+}
+
+@keyframes moving-stars {
+   from {background-position: 0 0;}
+   to {background-position: 1000px -1000px;}
+}
+
+header {
+   /* position: relative; */
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   text-align: center;
+}
+
+.front-header {
+   background: url(../Images/front-header1.png) center;
+   min-height: 500px !important;
+   background-size: cover !important;
+    -webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+   z-index: 1;
+}
+
+.header-background {
+   background: url(../Images/header-background.jpg) no-repeat top center;
+   min-height: 500px !important;
+   background-size: cover !important;
+    -webkit-background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+   z-index: 2;
+   opacity: 0.5;
+}
+
+.banner {
+   display: inline-block;
+   position: absolute;
+   top: 27%;
+   left: 15%;
+   right: 15%;
+   background-color: rgb(0, 0, 0, 0.7);
+   border-radius: 2em;
+   z-index: 10;
+   text-decoration: none !important;
+   min-width: 200px;
+}
+
+.banner-text > a {
+   text-decoration: none;
+}
+
+hr {
+   border: 0;
+   height: 1px;
+   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.responsive-headline {
+   color: white;
+   position: relative;
+   top: 10px;
+   font-size: clamp(26pt, 7vw, 40pt) !important;
+}
+
+.view-more {
+   display: flex;
+   cursor: pointer;
+   border: 2px solid white;
+   width: fit-content;
+   margin: auto;
+   height: clamp(25pt, 5vw, 36pt);
+   font-size: clamp(14pt, 1.2vw, 36pt);
+   color: white;
+   padding: 0px 10px;
+   margin-bottom: 10px;
+   align-items: center;
+}
+
+.view-more:hover {
+   background-color: teal;
+}
+
+.view-more i {
+   padding-left: 10px;
+}
+
+.scroll-icon{
+   color: rgb(170, 232, 255);
+}
+
+#home> p {
+   color: rgb(170, 232, 255) !important;
+   z-index: 10;
+   position: absolute;
+   bottom: 20px;
+   left: 49%;
+}
+p > a {
+   color: rgb(170, 232, 255);
+}
+
+p > a > i:hover {
+   color: teal;
+}
+
+h2 {
+   color: aliceblue;
+   font-size: clamp(20pt, 6vw, 30pt);
+}
+
+header .banner-text h1 {
+   margin: 0 auto 12px auto;
+   font-weight: 700;
+}
+
+h1 > .name {
+   color: rgb(22, 238, 173);
+}
+
+h1> .dot {
+   font-size: 26pt;
+}
