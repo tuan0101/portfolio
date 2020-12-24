@@ -1,21 +1,17 @@
 {
   "main": {
     "name": "Tuan Pham",
-    "occupation": "ReactJS Developer && Instructor @CleverProgrammer",
-    "description": "Full Stack React Developer by Day, Founder && Freelancer by Night. #papaReact",
-    "image": "IG_Sonny.jpeg",
-    "bio": "My name is Sonny, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer while also coaching ",
-    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "occupation": "Software Developer",
+    "bio": "I have serious passion for computer programming and love using it to solve problems around me. I enjoy using my obsessive attention to detail to bring ideas to life. That's why I'm excited to make a big impact at a high growth company.",
     "email": "tuanpham@oakland.edu",
     "phone": "586 553 3617",
     "address": {
-      "street": "123 Fake Street",
-      "city": "London",
-      "state": "UK",
-      "zip": "ABC 123"
+      "street": "34035 Williamsburg Ct",
+      "city": "Sterling Heights",
+      "state": "MI",
+      "zip": "48312"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "github": "https://github.com/tuan0101",
     "social": [
       {
         "name": "facebook",

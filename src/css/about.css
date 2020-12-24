@@ -7,6 +7,7 @@
     /* margin-top: 70px; */
     display: block;
     overflow: hidden;
+	  font-family: 'Roboto Mono', monospace;
 }
  
 
@@ -15,9 +16,19 @@
     display: flex;
     position: relative;
     top: 20px;
-    height: 300px;
+    height: 200px;
     max-width: 1224px;
-    margin: 0 auto;
+    margin-right: 10px;
+}
+
+.soft-skill1, .soft-skill2 {
+  display: flex;
+  /* margin: 0 !important; */
+  flex: 0.5;
+}
+
+.soft-skill1 > div, .soft-skill2 > div{
+  margin: 0 auto;
 }
   
 .soft-skill > div {
@@ -222,18 +233,32 @@
   }
 
 /*----------------------------------------------*/
+/*	Bio
+/*----------------------------------------------*/
+h3 {
+  font-size: 15pt;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.column-left > p {
+  font-size: 13.5pt;
+  text-align: justify;
+  margin: 0;
+}
+/*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
 .bars {
 	width: 85%;
 	float: left;
   text-align: left;
-   
 }
+
 .bars .skills {
   margin-top: 0px;
   list-style: none;
-   
+  -webkit-text-stroke: 1px black;
 }
 .bars li {
   position: relative;
@@ -247,27 +272,36 @@
 
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+  color: #313131;
 
 	text-transform: uppercase;
-   letter-spacing: 2px;
+  letter-spacing: 2px;
 	font-weight: normal;
-   position: relative;
-   top: 5px;
-   left: 5px;
+  position: relative;
+  top: 5px;
+  left: 5px;
 }
 .bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
-   margin: 0;
-   padding-right: 24px;
-    /* background: #5ac79d; */
-    background: var(--mainColor);
-   display: inline-block;
-  	height: 30px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  background: #5ac79d;
+  /* background: var(--mainColor); */
+  display: inline-block;
+  height: 30px;
+  line-height: 42px;
+  border-radius: 3px 0 0 3px;
+
+}
+
+li > b {
+  float: right;
+  align-content: center;
+  padding-right: 5px;
+  font: 15px/30px 'opensans-bold', 'Raleway';
+  color: rgb(6, 10, 68);
+  -webkit-text-stroke: 0.5px black;
 
 }
 

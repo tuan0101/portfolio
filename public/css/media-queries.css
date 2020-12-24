@@ -134,20 +134,53 @@
       display: block;
    }
    #about .column-left { 
-      width: 100%;
+      width: 95%;
       margin: 0 20px;
    }
    #about .column-right { 
       width: 100%;
       margin: 20px 20px;
    }
-}
+
+   .column-right > .bars {
+      width: 90%;
+
+   }
+
+   .column-right > .bars > .skills {
+      padding: 0;
+   }
+
+   .row > .column-left  p {
+      padding-right: 10px;
+      font-size: 12pt;
+   }
 
 @media only screen and (max-width: 480px) {
 
    /* mobile navigation
    -------------------------------------------------------------------- */
 
+   /* About styles
+   -------------------------------------------------------------------- */
+   #about> .soft-skill {
+      display: block;
+      height: 300px;
+   }
+   #about> .soft-skill > div {
+      width: 100%;
+      height: 150px;
+
+   }
+
+   #about> .my-skill {
+      width: fit-content;
+   }
+
+   #about 
+   .each-skill {
+      font-size: 11pt;
+   }
    /* header styles
    -------------------------------------------------------------------- */
    header .banner { 
