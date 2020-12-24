@@ -1,0 +1,216 @@
+#about {
+    background-image: linear-gradient(rgb(117, 116, 116), rgb(255, 255, 255));
+    width: 100%;
+    padding-bottom: 66px;
+    position: absolute;
+    overflow: hidden;
+    /* margin-top: 70px; */
+    display: block;
+    overflow: hidden;
+}
+ 
+
+
+.soft-skill {
+    display: flex;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    height: 300px;
+}
+  
+.soft-skill > div {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+.each-skill {
+    position: relative;
+    color: white;
+    top: 50px;
+}
+  
+.skills {
+    -webkit-text-stroke: 0.5px black;
+  
+}
+
+  #chevron > i {
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    position: relative;
+  }
+  
+  #chevron {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    margin: 0 auto;
+    height: 60px;
+    width: 80px;
+    
+  }
+  #chevron:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    background: #5ac79d;
+    transform: skew(0deg, 20deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95);
+  }
+  #chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: #5ac79d;
+    transform: skew(0deg, -20deg);
+    /* box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.95); */
+    box-shadow: 8px -1px 15px rgba(0, 0, 0, 0.45);
+  
+    /* clip-path: inset(-5px -10px -5px 0px); */
+  }
+
+  /* About me */
+.hexagon {
+    position: relative;
+    width: 300px; 
+    height: 173.21px;
+    margin: 86.60px 0;
+    /* background-image: url("./Images/Avatar\ Tuan.png"); */
+    background-image: url("../Images/ProfilePic3.png");
+    background-size: auto 346.4102px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.95);
+    transform: rotate(90deg) scale(0.7);
+  }
+  
+  .hexTop,
+  .hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 212.13px;
+    height: 212.13px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 43.93px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.95);
+  }
+  
+  /*counter transform the bg image on the caps*/
+  .hexTop:after,
+  .hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 300.0000px;
+    height: 173.20508075688775px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+  }
+  
+  .hexTop {
+    top: -106.0660px;
+  }
+  
+  .hexTop:after {
+    background-position: center top;
+  }
+  
+  .hexBottom {
+    bottom: -106.0660px;
+  }
+  
+  .hexBottom:after {
+    background-position: center bottom;
+  }
+  
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300.0000px;
+    height: 173.2051px;
+    z-index: 2;
+    background: inherit;
+  }
+  
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.column-3 { width: 30%;}
+.column-6 {width: 90%;}
+
+#about .profile-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+.bars {
+	width: 75%;
+	float: right;
+	padding: 0;
+   text-align: left;
+   
+}
+.bars .skills {
+  	margin-top: 0px;
+   list-style: none;
+   
+}
+.bars li {
+   position: relative;
+  	margin-bottom: 40px;
+  	background: rgb(218, 218, 218);
+  	height: 30px;
+   border-radius: 3px;
+   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.95);
+     
+}
+
+.bars li em {
+	font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+
+	text-transform: uppercase;
+   letter-spacing: 2px;
+	font-weight: normal;
+   position: relative;
+   top: 5px;
+   left: 5px;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin: 0;
+   padding-right: 24px;
+  	background: #5ac79d;
+   display: inline-block;
+  	height: 30px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+
+}
+
+    

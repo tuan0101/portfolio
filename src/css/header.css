@@ -1,6 +1,10 @@
 #hom {
-   display: flex;
+   /* height: 100%;
+   overflow: hidden; */
+   background-color: white;
+   min-width: 375px;
 }
+
 
 /* Nav Bar */
 #nav-wrap ul, #nav-wrap li {
@@ -20,7 +24,7 @@
    text-transform: uppercase;
    width: 100%;
    height: 36px;
-   z-index: 100;
+   z-index: 10;
    margin: 0 auto;
 }
 
@@ -100,7 +104,7 @@ ul#nav li.current a { color: #F06000; }
 .twinkling {
    background: transparent url(../Images/twinkling.png) repeat top center;
    animation: move-twinkling-back 200s linear infinite;
-   z-index: 0;
+   z-index: 1;
 }
 
 @keyframes move-twinkling-back {
@@ -113,12 +117,16 @@ ul#nav li.current a { color: #F06000; }
    to {background-position: 1000px -1000px;}
 }
 
+
+
 header {
-   /* position: relative; */
+   position: relative;
    height: 800px;
    min-height: 500px;
    width: 100%;
    text-align: center;
+   /* overflow: hidden;
+   box-sizing: border-box; */
 }
 
 .front-header {
@@ -128,7 +136,7 @@ header {
     -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
-   z-index: 1;
+   z-index: 5;
 }
 
 .header-background {
@@ -137,7 +145,7 @@ header {
    background-size: cover !important;
     -webkit-background-size: cover !important;
    text-align: center;
-   overflow: hidden;
+   /* overflow: hidden; */
    z-index: 2;
    opacity: 0.5;
 }

@@ -4,6 +4,13 @@ import '../css/header.css';
 function Header() {
     return (
         <header id="home">
+                        <div className="front-header"></div>
+            <div className="header-background"></div>
+            <div className="stars"></div>
+            <div className="stars1"></div>
+            <div className="stars2"></div>
+            <div className="stars3"></div>
+            <div className="twinkling"></div>
             <nav id="nav-wrap">
 
                 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -41,13 +48,13 @@ function Header() {
                 <a className="smoothscroll" href="#about"><i class="fas fa-arrow-alt-circle-down fa-2x"></i></a>
             </p>
 
-            <div className="front-header"></div>
+            {/* <div className="front-header"></div>
             <div className="header-background"></div>
             <div className="stars"></div>
             <div className="stars1"></div>
             <div className="stars2"></div>
             <div className="stars3"></div>
-            <div className="twinkling"></div>
+            <div className="twinkling"></div> */}
         </header>
         
     )

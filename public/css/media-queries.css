@@ -44,6 +44,7 @@
    display: block;
    background: transparent !important;
    width: auto;
+   height: auto;
    position: fixed;
    top: 0;
    right: 0;
@@ -116,6 +117,16 @@
    #nav-wrap .nav > li:hover {
       background-color: rgb(122, 117, 117);
    }
+
+   /* About Section
+   -------------------------------------------------------------------- */
+   #about .profile-pic { display: none; }
+   #about .download .button {
+      width: 100%;
+      text-align: center;
+      padding: 15px 20px;
+   }
+   #about .main-col { padding-right: 30px; }
    
 }
 
@@ -126,7 +137,10 @@
 
    /* header styles
    -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
+   header .banner { 
+      padding-top: 15px; 
+      min-width: 300px;
+   }
    header .banner-text h1 {
       font: 40px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
