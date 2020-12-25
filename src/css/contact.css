@@ -1,0 +1,33 @@
+#contact {
+    display: flex;
+    background: rgb(37, 41, 52);
+    padding: 40px 20px 20px 60px;
+}
+.info {
+    flex: 0.7;
+}
+
+h5 {
+    margin: 0;
+    font-size: 15pt;
+    color: rgb(225, 224, 235);
+}
+
+.address {
+    line-height: 22pt;
+    color: rgb(168, 158, 168);
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    color: rgb(201, 200, 214);
+    font: 14pt/20pt 'Roboto Mono', monospace;
+    /* font: normal 20px/26px Arial, Helvetica, sans-serif; */
+}
+
+.email > i {
+    color: rgb(225, 224, 235);
+    margin-right: 20px;
+}
+
