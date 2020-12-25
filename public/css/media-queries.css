@@ -137,6 +137,11 @@
       width: 95%;
       margin: 0 20px;
    }
+
+   #about .column-left > p {
+      padding-bottom: 0;
+   }
+
    #about .column-right { 
       width: 100%;
       margin: 20px 20px;
@@ -155,13 +160,10 @@
       padding-right: 10px;
       font-size: 12pt;
    }
+}
 
-@media only screen and (max-width: 480px) {
-
-   /* mobile navigation
-   -------------------------------------------------------------------- */
-
-   /* About styles
+@media only screen and (max-width: 650px) {
+/* About
    -------------------------------------------------------------------- */
    #about> .soft-skill {
       display: block;
@@ -170,17 +172,59 @@
    #about> .soft-skill > div {
       width: 100%;
       height: 150px;
-
    }
 
-   #about> .my-skill {
-      width: fit-content;
+   #about .my-skill {
+      max-width: none;
    }
 
-   #about 
-   .each-skill {
-      font-size: 11pt;
+/* Education
+   -------------------------------------------------------------------- */
+   #education > div {
+      display: block !important;
+      justify-content: center !important;
    }
+
+   #education .minor-col {
+      padding: 0;
+   }
+
+   #education .minor-col >h1 {
+      width: 100%;
+      text-align: center;
+   }
+
+   #education .main-col> div {
+      text-align: center;
+      padding: 0 10px;
+      margin-right: 0px;
+   }
+
+   #education .main-col> div > .info {
+      font-size: 12.5pt;
+   }
+
+
+   #education .school > div {
+      border-bottom: 1px solid rgb(182, 172, 172);
+      margin-bottom: 20px;
+   }
+
+   .education, .work {
+      border-bottom: none !important;
+   }
+
+   #education .date {
+      font-size: 12.5pt;
+      /* margin-top: 6px; */
+   }
+}
+
+@media only screen and (max-width: 480px) {
+
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+
    /* header styles
    -------------------------------------------------------------------- */
    header .banner { 
@@ -197,4 +241,19 @@
    }
 
 
+   /* About styles
+   -------------------------------------------------------------------- */
+   #about> .my-skill {
+      width: fit-content;
+   }
+
+   #about .each-skill {
+      font-size: 11pt;
+   }
+    
+   #about .bars{
+      height: fit-content;
+   }
+
+   
 }

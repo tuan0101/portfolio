@@ -20,6 +20,18 @@
 /* .three { width: 30%;} */
 /* .nine {width: 60%;} */
 
+h4 {
+	font-family: "raleway-bold";
+	text-align: center;
+	font-size: clamp(26pt, 4vw, 40pt);
+	font-weight: 700;
+	color: rgb(235, 230, 230);
+	margin: 50px 0 20px 0;
+}
 
+h4 > span {
+	border-bottom: 3px solid #e0dbdb;
+    padding-bottom: 6px;
+ }
 
  

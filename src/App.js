@@ -2,6 +2,7 @@ import './App.css';
 import jsonData from './resumeData.json'
 import About from './Components/About';
 import Header from './Components/Header';
+import Education from './Components/Education';
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -44,6 +45,7 @@ class App extends Component {
         <Header />
         <About data={this.state.resumeData.resume}
                main={this.state.resumeData.main}/>
+        <Education data={this.state.resumeData.resume}/>
       </div>
     );
   }

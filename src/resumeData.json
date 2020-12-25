@@ -39,24 +39,24 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University of Kent",
-        "degree": "Masters in Advanced Computer Science",
-        "graduated": "January 2017",
-        "description": "Graduated with Distinction"
-      }
-    ],
-    "work": [
-      {
-        "company": "Clever Programmer",
-        "title": "Team Member && React Specialist",
-        "years": "April 2020 - Present",
-        "description": "Teaching ReactJS to thousands of students."
+        "school": "Oakland University, MI",
+        "degree": "Bachelor of Science, Computer Science",
+        "graduated": "Expected graduation May 2021",
+        "description": ""
       },
       {
-        "company": "Lindar Media",
-        "title": "Software Engineer",
-        "years": "Nov 2019 - April 2020",
-        "description": "Building MrQ, a gambling website."
+        "school": "Vietnam National University Ho Chi Minh City, Vietnam",
+        "degree": "Bachelor of Science, Information Technology",
+        "graduated": "Graduated in Mar 2013",
+        "description": "Globally recognized and ranked as the #5 university in Vietnam"
+      }
+    ],
+    "works": [
+      {
+        "company": "Focus Technology Co., Ltd, Ho Chi Minh city, Vietnam",
+        "title": "IT Support Technician",
+        "years": "May 2013 - Apr 2015",
+        "description": "Installed, configured, maintained and tested computer hardware, software, and peripheral equipment following established procedures"
       }
     ],
     "skills": [

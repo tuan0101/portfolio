@@ -1,24 +1,23 @@
 #about {
     background-image: linear-gradient(rgb(117, 116, 116), rgb(255, 255, 255));
     width: 100%;
-    padding-bottom: 66px;
-    position: absolute;
+    padding-bottom: 20px;
+    /* position: absolute; */
     overflow: hidden;
     /* margin-top: 70px; */
     display: block;
     overflow: hidden;
 	  font-family: 'Roboto Mono', monospace;
 }
- 
-
 
 .soft-skill {
     display: flex;
     position: relative;
     top: 20px;
-    height: 200px;
+    height: 250px;
     max-width: 1224px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
+    margin: 0  auto;
 }
 
 .soft-skill1, .soft-skill2 {
@@ -27,8 +26,10 @@
   flex: 0.5;
 }
 
-.soft-skill1 > div, .soft-skill2 > div{
+.my-skill {
+  max-width: 150px;
   margin: 0 auto;
+  padding: 0 10px;
 }
   
 .soft-skill > div {
@@ -245,6 +246,7 @@ h3 {
   font-size: 13.5pt;
   text-align: justify;
   margin: 0;
+  padding-bottom: 40px;
 }
 /*----------------------------------------------*/
 /*	Skill Bars

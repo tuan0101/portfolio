@@ -25,6 +25,7 @@ function About({ data, main }) {
 
     return (
         <section id="about">
+            <h4 className="about-header"><span>ABOUT</span></h4>
             <div className="soft-skill">
                 <div className="soft-skill1">
                     <div className="my-skill">
