@@ -32,9 +32,12 @@ h4 {
 h4 > span {
 	border-bottom: 3px solid #e0dbdb;
     padding-bottom: 6px;
- }
+}
+
+.opaque { background-color: #333 !important;}
 
  @keyframes move-down {
+	0% {top: 0px}
     35% {top: 40px;  }
     50% {top: -50px;  right: 50px;}
     65% {top: -10px; }

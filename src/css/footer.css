@@ -36,8 +36,8 @@
     transition: 0.6s;
 }
 .up-arrow:hover  i {
-    animation:  move-down 0.5s linear forwards;
-    -webkit-animation: move-down 0.5s linear forwards;
+    animation:  move-down 0.35s linear forwards;
+    -webkit-animation: move-down 0.35s linear forwards;
 
 }
 
@@ -64,8 +64,8 @@
     transition: 0.6s;
 }
 .social-icon:hover  i {
-    animation:  move-down 0.5s linear forwards;
-    -webkit-animation: move-down 0.5s linear forwards;
+    animation:  move-down 0.35s linear forwards;
+    -webkit-animation: move-down 0.35s linear forwards;
 
 }
 

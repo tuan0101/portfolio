@@ -1,5 +1,4 @@
 let theme = localStorage.getItem('theme')
-console.log('its working');
 if(theme == null){
 	setTheme('light')
 }else{
@@ -11,7 +10,6 @@ let themeDots;
 
 document.addEventListener('DOMContentLoaded', function() {
     themeDots = document.getElementsByClassName('theme-dot');
-    console.log(themeDots.length);
     for (var i=0; themeDots.length > i; i++){
         themeDots[i].addEventListener('click', function(){
             let mode = this.dataset.mode
@@ -42,5 +40,5 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = '/css/purple.css'
 	}
 
-	// localStorage.setItem('theme', mode)
+	localStorage.setItem('theme', mode)
 }
