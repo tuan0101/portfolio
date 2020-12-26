@@ -241,3 +241,10 @@ h1 > .name {
 h1> .dot {
    font-size: 26pt;
 }
+
+.scrolldown:hover {
+   transform: scale(1.15);
+   transition: 0.5s;
+   box-shadow:0 0px 70px white inset, 0 0px 10px white;
+
+}

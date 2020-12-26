@@ -11,10 +11,10 @@ function Header() {
 
                 <ul id="nav" className="nav">
                     <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                    <li><a className="smoothscroll" href="#about">About</a></li>
-                    <li><a className="smoothscroll" href="#project">Projects</a></li>
-                    <li><a className="smoothscroll" href="#education">Education</a></li>
-                    <li><a className="smoothscroll" href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
 
             </nav>
@@ -26,7 +26,7 @@ function Header() {
                         <span className="dot">.</span></h1>
                     <h2>I'm a Software Developer.</h2>
                     <hr />
-                    <a className="smoothscroll" href="#about">
+                    <a href="#about">
                         <div className="view-more">
                             {/* {networks} */}
                             View My Work
@@ -39,7 +39,7 @@ function Header() {
             </div>
 
             <p className="scrolldown">
-                <a className="smoothscroll" href="#about">
+                <a href="#about">
                     <i className="fas fa-chevron-circle-down fa-2x"></i>
                 </a>
             </p>

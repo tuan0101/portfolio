@@ -34,4 +34,12 @@ h4 > span {
     padding-bottom: 6px;
  }
 
+ @keyframes move-down {
+    35% {top: 40px;  }
+    50% {top: -50px;  right: 50px;}
+    65% {top: -10px; }
+    80% {top: -5px; }
+    100% {top: 0px;  }
+}
+
  

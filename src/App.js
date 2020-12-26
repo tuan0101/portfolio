@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Education from './Components/Education';
 import React, { Component } from 'react';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 class App extends Component {
 
@@ -48,7 +49,7 @@ class App extends Component {
                main={this.state.resumeData.main}/>
         <Education data={this.state.resumeData.resume}/>
         <Contact data={this.state.resumeData.main}/>
-
+        <Footer />
       </div>
     );
   }
