@@ -28,8 +28,7 @@ function Header() {
                     <hr />
                     <a href="#about">
                         <div className="view-more">
-                            {/* {networks} */}
-                            View My Work
+                            <span>View My Work</span>
                             <span className="scroll-icon ">
                                 <i className="fas fa-arrow-alt-circle-down fa-lg"></i>
                             </span>

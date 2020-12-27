@@ -8,7 +8,8 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+    rel="stylesheet">
 
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css">
@@ -36,7 +37,13 @@
   <script src="js/DynamicTheme.js"></script>
   <script src="js/init.js"></script>
 
-
+  <script language="javascript" type="text/javascript">
+    $(function(){
+        $('.handleClick').click(function(){      
+            $('iframe').attr('src', $('iframe').attr('src'));
+        });
+    });
+    </script>
 </body>
 
 </html>

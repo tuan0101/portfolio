@@ -194,14 +194,36 @@ hr {
    padding: 0px 10px;
    margin-bottom: 10px;
    align-items: center;
+   overflow: hidden;
 }
 
 .view-more:hover {
    background-color: teal;
+   transform: scale(0.9);
+   transition: 0.6s;
+}
+
+.view-more:hover span {
+   color: black;
+   animation:  move-down-2 0.35s linear forwards;
+   -webkit-animation: move-down-2 0.35s linear forwards;
+}
+
+.view-more > span {
+   position: relative;
 }
 
 .view-more i {
    padding-left: 10px;
+}
+
+@keyframes move-down-2 {
+	0% {top: 0px}
+    35% {top: 50px;  }
+    50% {top: -70px;  right: 200px;}
+    65% {top: -20px; }
+    80% {top: -10px; }
+    100% {top: 0px;  }
 }
 
 .scroll-icon{

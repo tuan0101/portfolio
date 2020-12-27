@@ -96,7 +96,8 @@
         "title": "MERN Stack WhatsApp Clone",
         "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
         "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?enablejsapi=1",
+        "description": "line1 \\n line2\\n\\n line 3"
       },
       {
         "title": "MERN Stack TikTok Clone",
