@@ -16,9 +16,22 @@
 }
 
 
-
 /* .three { width: 30%;} */
 /* .nine {width: 60%;} */
+button {
+    position: relative;
+    color: white;
+    border: 0.1px solid white;
+    background-color: #5ac79d;
+    font: 700 12pt/20pt 'opensans-bold', sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+	background-color: #17694a;
+}
 
 h4 {
 	font-family: "raleway-bold";

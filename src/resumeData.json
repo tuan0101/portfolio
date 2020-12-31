@@ -97,7 +97,11 @@
         "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
         "image": "whatsapp-mern.jpeg",
         "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?enablejsapi=1",
-        "description": "line1 \\n line2\\n\\n line 3"
+        "content": {
+          "title": "Social Media Web App",
+          "url": "http://Gridtalker.herokuapp.com",
+          "description": "Gridtalk is a mini social media platform that can bring people together with it's GridRoom by using one of it's two features such as direct messaging or live chat room."
+        }
       },
       {
         "title": "MERN Stack TikTok Clone",

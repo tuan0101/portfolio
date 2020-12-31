@@ -300,5 +300,9 @@
   #project .project-item > button {
       font: 600 11pt/16pt 'opensans-bold', sans-serif ;
   }
+
+  #project .modal-contents {
+      bottom: 0px;
+  }
    
 }

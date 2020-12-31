@@ -74,15 +74,7 @@
 
 
 .project-item > button {
-    position: relative;
     top: 300px;
-    color: white;
-    border: 0.1px solid white;
-    background-color: #5ac79d;
-    font: 700 12pt/20pt 'opensans-bold', sans-serif;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 .item-wrap:hover  button {
@@ -112,18 +104,56 @@
     background-color: rgba(0,0,0,0.7);
     position: fixed;
     top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .modal-contents {
     position: relative;
     top: -70px;
     background-color: white;
-    padding: 0.7px 0.5px;
-    z-index: 100;
+    padding: 0.7px 0;
+    width: 420px;
+    text-align: left;
+    /* z-index: 1; */
 }
+
+.modal-contents > hr {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.35), rgba(255, 255, 255, 0));
+}
+
+.modal-contents > *:not(iframe) {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.modal-contents > p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.modal-contents > div  {
+    position: flex;
+}
+
+.modal-contents > div > button {
+    margin-top: 0;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.modal-contents > div > i {
+    float: right;
+    color: #5ac79d;
+    margin-top: 20px; 
+    cursor: pointer;
+} 
+
+.modal-contents  i:hover {
+    color: #17694a;
+} 
