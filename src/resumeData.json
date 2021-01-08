@@ -94,9 +94,9 @@
     "projects": [
       {
         "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "category": "MongoDB, ExpressJS, ReactJS, NodeJS",
         "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?enablejsapi=1",
+        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?",
         "content": {
           "title": "Social Media Web App",
           "url": "http://Gridtalker.herokuapp.com",
@@ -107,25 +107,45 @@
         "title": "MERN Stack TikTok Clone",
         "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
         "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?",
+        "content": {
+          "title": "Social Media Web App",
+          "url": "http://Gridtalker.herokuapp.com",
+          "description": "Gridtalk is a mini social media platform that can bring people together with it's GridRoom by using one of it's two features such as direct messaging or live chat room."
+        }
       },
       {
         "title": "Facebook Clone with React",
         "category": "Facebook Clone built with ReactJS",
         "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?",
+        "content": {
+          "title": "Social Media Web App",
+          "url": "http://Gridtalker.herokuapp.com",
+          "description": "Gridtalk is a mini social media platform that can bring people together with it's GridRoom by using one of it's two features such as direct messaging or live chat room."
+        }
       },
       {
         "title": "Airbnb Clone",
         "category": "Facebook Clone built with ReactJS",
         "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?",
+        "content": {
+          "title": "Social Media Web App",
+          "url": "http://Gridtalker.herokuapp.com",
+          "description": "Gridtalk is a mini social media platform that can bring people together with it's GridRoom by using one of it's two features such as direct messaging or live chat room."
+        }
       },
       {
         "title": "Netflix Clone",
         "category": "Facebook Clone built with ReactJS",
         "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?",
+        "content": {
+          "title": "Social Media Web App",
+          "url": "http://Gridtalker.herokuapp.com",
+          "description": "Gridtalk is a mini social media platform that can bring people together with it's GridRoom by using one of it's two features such as direct messaging or live chat room."
+        }
       }
     ]
   },

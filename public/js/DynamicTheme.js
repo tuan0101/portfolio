@@ -5,7 +5,6 @@ if(theme == null){
 	setTheme(theme)
 }
 
-
 let themeDots;
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -19,8 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-
-
 function setTheme(mode){
 	if(mode == 'light'){
 		document.getElementById('theme-style').href = '/css/default.css'
@@ -29,7 +26,7 @@ function setTheme(mode){
 	if(mode == 'blue'){
         console.log('blue');
         document.getElementById('theme-style').href = '/css/blue.css'
-        console.log('object', document.getElementById('theme-style'));
+
 	}
 
 	if(mode == 'green'){

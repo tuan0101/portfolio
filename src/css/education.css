@@ -1,9 +1,9 @@
 #education {
     /* background: #fff; */
-    border-top: 2px solid black;
+    border-top: 3px solid black;
     padding-top: 30px;
-    padding-bottom: 20px;
     overflow: hidden;
+    background-color: var(--mainColor);
  }
 
  #education > div {
@@ -21,12 +21,14 @@
  #education h1 span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
+    color: var(--mainText);
  }
 
- h3 {
+ #education h3 {
     -webkit-font-smoothing: antialiased;
     font: 22px/26px 'Verdana', sans-serif;
-    color: #36393b;
+    /* color: #36393b; */
+    color: var(--secondaryText);
     font-weight: 700;
  }
 
@@ -46,17 +48,26 @@
 .education, .work {
     margin-bottom: 48px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid var(--borderColor);
+ }
+
+ .work {
+   border-bottom: none;
+
  }
 
  #education .info {
     margin: 0 20px 0 0;
     font: 19px/24px 'librebaskerville-italic', serif;
-    color: #6E7881;
+    color: var(--descriptiveColor);
  }
 
  #education .info span {
     margin-right: 5px;
     margin-left: 5px;
+ }
+
+ .description {
+    color: var(--mainText);
  }
 

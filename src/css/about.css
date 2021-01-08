@@ -1,5 +1,5 @@
 #about {
-    background-image: linear-gradient(rgb(117, 116, 116), rgb(255, 255, 255));
+    background-image: linear-gradient(var(--secondaryColor), #ffffff);
     width: 100%;
     padding-bottom: 20px;
     overflow: hidden;
@@ -37,7 +37,9 @@
 }
 .each-skill {
     position: relative;
-    color: white;
+    /* color: white; */
+    color: var(--mainText);
+    
     top: 20px;
 }
   
@@ -48,7 +50,8 @@
 
   #chevron > i {
     z-index: 1;
-    color: rgb(0, 0, 0);
+    /* color: var(--buttonColor); */
+    /* color: white; */
     position: relative;
     top: 7px;
   }
@@ -69,7 +72,7 @@
     left: 0;
     height: 100%;
     width: 51%;
-    background: #5ac79d;
+    background: var(--elementColor);
     transform: skew(0deg, 20deg);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95);
   }
@@ -80,7 +83,7 @@
     right: 0;
     height: 100%;
     width: 50%;
-    background: #5ac79d;
+    background: var(--elementColor);
     transform: skew(0deg, -20deg);
     /* box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.95); */
     box-shadow: 8px -1px 15px rgba(0, 0, 0, 0.45);
@@ -258,7 +261,7 @@ h3 {
 .bars .skills {
   margin-top: 0px;
   list-style: none;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1px var(--mainText);
 }
 .bars li {
   position: relative;
@@ -272,8 +275,7 @@ h3 {
 
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-  color: #313131;
-
+  /* color: #313131; */
 	text-transform: uppercase;
   letter-spacing: 2px;
 	font-weight: normal;
@@ -281,13 +283,14 @@ h3 {
   top: 5px;
   left: 5px;
 }
+
 .bar-expand {
   position: absolute;
   left: 0;
   top: 0;
   margin: 0;
-  background: #5ac79d;
-  /* background: var(--mainColor); */
+  /* background: #5ac79d; */
+  background: var(--elementColor);
   display: inline-block;
   height: 30px;
   line-height: 42px;
@@ -302,7 +305,6 @@ li > b {
   font: 15px/30px 'opensans-bold', 'Raleway';
   color: rgb(6, 10, 68);
   -webkit-text-stroke: 0.5px black;
-
 }
 
     

@@ -1,13 +1,18 @@
 #project {
     border-top: 1px solid rgb(126, 116, 116);
-    padding: 0 30px;
+    padding: 60px 30px;
     text-align: center;
-
+    background: var(--mainColor);
 }
 
 .project-body {
     max-width: 1224px;
     margin: 0  auto;
+}
+
+.project-body h3 {
+    color: var(--mainText);
+	padding-bottom: 15px;
 }
 
 .project-group {
@@ -72,6 +77,10 @@
     font-size: calc(12pt + 0.2vw);
 }
 
+.project-item > .project-category {
+    color: #999999;
+    transform: scale(0.8);
+}
 
 .project-item > button {
     top: 300px;
@@ -101,7 +110,7 @@
 }
 
 .modal {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.3);
     position: fixed;
     top: 0;
     left: 0;
@@ -123,31 +132,31 @@
     /* z-index: 1; */
 }
 
-.modal-contents > hr {
+.modal-contents  hr {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.35), rgba(255, 255, 255, 0));
 }
 
-.modal-contents > *:not(iframe) {
+.modal-contents >*:not(iframe) {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 15px;
 }
 
-.modal-contents > p {
+.modal-contents  p {
     font-family: 'Roboto Mono', monospace;
 }
 
-.modal-contents > div  {
+.modal-contents > div {
     position: flex;
 }
 
-.modal-contents > div > button {
+.modal-contents button {
     margin-top: 0;
     margin-bottom: 25px;
     float: left;
 }
 
-.modal-contents > div > i {
+.modal-contents  i {
     float: right;
     color: #5ac79d;
     margin-top: 20px; 

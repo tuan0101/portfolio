@@ -1,11 +1,15 @@
 :root{
-	--mainColor:#15202B;
+	--mainColor:#406283;
 	--secondaryColor:#192734;
+	--descriptiveColor: #c0c4c9;
 
-	--borderColor:#164D56;
+	--elementColor: #2275a5;
+	--subElementColor: #0d217a;
+
+	--borderColor:#5fa1ac;
 
 	--mainText:#fff;
-	--secondaryText:#eeeeee;
+	--secondaryText:#eeeaea;
 
     --themeDotBorder:#FFF;
     

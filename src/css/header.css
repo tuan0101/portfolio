@@ -257,7 +257,7 @@ header .banner-text h1 {
 }
 
 h1 > .name {
-   color: rgb(22, 238, 173);
+   color: var(--elementColor);
 }
 
 h1> .dot {
