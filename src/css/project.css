@@ -36,6 +36,7 @@
 .item-wrap > img {
     width: 100%;
     height: auto;
+    background-size:cover
     /* max-width: 425px; */
 }
 
@@ -54,13 +55,11 @@
     align-items: center;       /* cross axis */
     justify-content: center;    /* main axis */
     opacity: 0;
-     -moz-opacity: 0;
-     filter:alpha(opacity=0);
-     background-color: rgba(0, 0, 0,0.75);
-}
+    -moz-opacity: 0;
+    filter:alpha(opacity=0);
+    background-color: rgba(0, 0, 0,0.75);
 
-.m-hidden {
-    display: none;
+
 }
 
 .project-item {
@@ -110,7 +109,7 @@
 }
 
 .modal {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.7);
     position: fixed;
     top: 0;
     left: 0;
@@ -122,7 +121,16 @@
     z-index: 1000;
 }
 
+.m-hidden > .modal-contents {
+    position: absolute;
+    right: 100%;
+    /* transform: scale(0); */
+    /* z-index: -1000; */
+    transition: transform 0.0s ease-in;
+}
+
 .modal-contents {
+    /* display: inline; */
     position: relative;
     top: -70px;
     background-color: white;
@@ -130,6 +138,9 @@
     width: 420px;
     text-align: left;
     /* z-index: 1; */
+    transform: scale(1);
+    transition: transform 0.3s ease-in;
+    transform-origin: center center;
 }
 
 .modal-contents  hr {

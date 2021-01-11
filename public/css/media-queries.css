@@ -302,7 +302,9 @@
   }
 
   #project .modal-contents {
-      bottom: 0px;
+      /* position: relative; */
+      transform: scale(.75);
+      top: 10px;
   }
    
 }

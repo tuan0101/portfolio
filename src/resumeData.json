@@ -6,6 +6,12 @@
     "email": "tuanpham@oakland.edu",
     "phone": "586 553 3617",
     "address": {
+      "street": "22611 Karam Ct",
+      "city": "Warren",
+      "state": "MI",
+      "zip": "48091"
+    },
+    "address1": {
       "street": "34035 Williamsburg Ct",
       "city": "Sterling Heights",
       "state": "MI",
@@ -93,58 +99,75 @@
   "portfolio": {
     "projects": [
       {
-        "title": "MERN Stack WhatsApp Clone",
+        "id": 0,
+        "title": "Social Media Web App",
         "category": "MongoDB, ExpressJS, ReactJS, NodeJS",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?",
+        "image": "Social App.png",
+        "url": "https://www.youtube.com/embed/GhqaxkeFnOY",
         "content": {
-          "title": "Social Media Web App",
           "url": "http://Gridtalker.herokuapp.com",
+          "github": "https://github.com/tuan0101/Chatting-System-SourceCode",
           "description": "Gridtalk is a mini social media platform that can bring people together with it's GridRoom by using one of it's two features such as direct messaging or live chat room."
         }
       },
       {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?",
+        "id": 1,
+        "title": "Restaurant Management System",
+        "category": "Visual Basic, Microsoft Access",
+        "image": "Restaurant.png",
+        "url": "https://www.youtube.com/embed/-7aBD_ztweQ",
         "content": {
-          "title": "Social Media Web App",
-          "url": "http://Gridtalker.herokuapp.com",
-          "description": "Gridtalk is a mini social media platform that can bring people together with it's GridRoom by using one of it's two features such as direct messaging or live chat room."
+          "url": "",
+          "github": "https://github.com/tuan0101/Restaurant-Management-System",
+          "description": "I was leading a team of 3 developers, designed and developed the restaurant management system using Visual Basic and Microsoft Access."
         }
       },
       {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?",
+        "id": 2,
+        "title": "Facial Landmark Detection",
+        "category": "Machine Learning - Tensorflow",
+        "image": "Facial Landmark.png",
+        "url": "https://www.youtube.com/embed/1dxaMEkYw-g",
         "content": {
-          "title": "Social Media Web App",
-          "url": "http://Gridtalker.herokuapp.com",
-          "description": "Gridtalk is a mini social media platform that can bring people together with it's GridRoom by using one of it's two features such as direct messaging or live chat room."
+          "url": "",
+          "github": "https://github.com/tuan0101/Machine-Learning/tree/main/Facial%20Landmark%20Detection",
+          "description": "Inspired from Yinguobing/cnn-facial-landmark's Github repository, I developed and trained a convolutional neural network model with a dataset of 10,000+ images to detect 68 facial key points on a human face in real-time."
         }
       },
       {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?",
+        "id": 3,
+        "title": "Tarot Card Game",
+        "category": "C#, Unity3D",
+        "image": "Tarot Card.png",
+        "url": "https://www.youtube.com/embed/xiM_gGSwm2s",
         "content": {
-          "title": "Social Media Web App",
-          "url": "http://Gridtalker.herokuapp.com",
-          "description": "Gridtalk is a mini social media platform that can bring people together with it's GridRoom by using one of it's two features such as direct messaging or live chat room."
+          "url": "",
+          "github": "https://github.com/tuan0101/Tarot-Card-SourceCode",
+          "description": "I was leading a team as a SCRUM master to create a fortune-telling Tarot card game. I designed the entire gameplays and 5 user stories which were implemented in 5 sprints (15 weeks). I was also a developer who wrote the code to create all card animations including shuffling, spreading, and flipping as well as many core functionalities in the game."
         }
       },
       {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/embed/TAJCqNQ5DtE?",
+        "id": 4,
+        "title": "Head and Run - 3D Game",
+        "category": "C#, Unity3D",
+        "image": "Heal and Run.jpg",
+        "url": "https://www.youtube.com/embed/117C_xdp2ro",
         "content": {
-          "title": "Social Media Web App",
-          "url": "http://Gridtalker.herokuapp.com",
-          "description": "Gridtalk is a mini social media platform that can bring people together with it's GridRoom by using one of it's two features such as direct messaging or live chat room."
+          "url": "https://tuan0101.itch.io/run-and-heal",
+          "github": "https://github.com/tuan0101/Heal-and-Run-AI-Game",
+          "description": "In this game, I created a patrol system that AI bots is getting smarter through each difficulty level to chase and attack the player. If there is no player in range, the AI bots will be destroying all the alive plants around. If the player is killed by the AI bots or cannot heal 10 plants until all of them are dead, the game is over."
+        }
+      },
+      {
+        "id": 5,
+        "title": "Hardy Egg - 2D Game",
+        "category": "C#, Unity3D",
+        "image": "HardyEgg.png",
+        "url": "https://www.youtube.com/embed/cCPcTarAO0A",
+        "content": {
+          "url": "",
+          "github": "https://github.com/tuan0101/Hardy-Egg-2D-Game",
+          "description": "This is an endless runner 2D game that a player just needs to jump to pass many obstacles as possible. I developed a bot with a regression function to automatically play the game. The independent variable of the function is the obstacle’s heights and the dependent variable is the correct distance to jump between the player and the upcoming obstacles."
         }
       }
     ]
