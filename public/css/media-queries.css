@@ -52,7 +52,7 @@
    font: 10px 'opensans-bold', sans-serif;
    font-weight: bold;
    letter-spacing: 1.5px;
-   display: block;
+   display: block !important;
    background: transparent !important;
    width: auto;
    height: auto;
@@ -257,10 +257,6 @@
 }
 
 @media only screen and (max-width: 480px) {
-
-   /* mobile navigation
-   -------------------------------------------------------------------- */
-
    /* header styles
    -------------------------------------------------------------------- */
    header .banner { 

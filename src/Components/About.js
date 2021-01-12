@@ -11,7 +11,7 @@ function About({ data, main }) {
         var skills = data.skills.map(function (skills) {
             const className = 'bar-expand ' + skills.name.toLowerCase();
             return (
-                <li key={skills.name}>
+                <li key={skills.name} data-aos="fade-up-right">
                     <span style={{ width: skills.level }} className={className}></span>
                     {/* <span className="skill-title"></span> */}
                     <b> {skills.level}</b>
@@ -27,29 +27,29 @@ function About({ data, main }) {
         <section id="about">
             <h4 className="about-header"><span>ABOUT</span></h4>
             <div className="soft-skill">
-                <div className="soft-skill1">
-                    <div className="my-skill">
+                <div className="soft-skill1" >
+                    <div className="my-skill" data-aos="flip-right" data-aos-delay="0" data-aos-duration="1000">
                         <div id="chevron"><i className="fab fa-d-and-d-beyond fa-3x" style={{ 'top': '-5px' }}></i></div>
                         <div className="each-skill">Give more than what's expected</div>
                     </div>
-                    <div className="my-skill">
+                    <div className="my-skill" data-aos="flip-right" data-aos-delay="100" data-aos-duration="1000">
                         <div id="chevron"><i className="far fa-star fa-2x"></i></div>
                         <div className="each-skill">Set high standards</div>
                     </div></div>
                 <div className="soft-skill2">
 
-                    <div className="my-skill">
+                    <div className="my-skill" data-aos="flip-right" data-aos-delay="200" data-aos-duration="1000">
                         <div id="chevron"><i className="fas fa-rocket fa-2x"></i></div>
                         <div className="each-skill">Embrace accountability</div>
                     </div>
-                    <div className="my-skill">
+                    <div className="my-skill" data-aos="flip-right" data-aos-delay="300" data-aos-duration="1000">
                         <div id="chevron"><i className="fas fa-hands fa-2x"></i></div>
                         <div className="each-skill">Care deeply</div>
                     </div></div>
             </div>
 
             <div className="row">
-                <div className="column-left">
+                <div className="column-left" data-aos="flip-up" data-aos-delay="500">
                     {/* <div className="hexagon" style={{backgroundImage: "url("+'../public/images/IG_Sonny.jpeg'+")"}}><span></span></div> */}
                     <div className="hexagon">
                         <div className="hexTop"></div>

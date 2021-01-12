@@ -38,13 +38,14 @@ jQuery(document).ready(function ($) {
             active_section = $(this);
             if (direction === "up") active_section = active_section.prev();
 
+            console.log('active_section', active_section);
             var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
-
+            console.log('active_link', active_link);
             navigation_links.parent().removeClass("current");
-            active_link.parent().addClass("current");
+            active_link.parent().addClass("current");  // activate orange color
 
         },
-        offset: '35%'
+        offset: '50%'
 
     });
 
@@ -72,27 +73,6 @@ jQuery(document).ready(function ($) {
 
     });
 
-
-    /*----------------------------------------------------*/
-    /*	Modal Popup
-    ------------------------------------------------------*/
-
-    // $('.item-wrap a').magnificPopup({
-
-    //     type: 'inline',
-    //     fixedContentPos: false,
-    //     removalDelay: 200,
-    //     showCloseBtn: false,
-    //     mainClass: 'mfp-fade'
-
-    // });
-
-    // $(document).on('click', '.popup-modal-dismiss', function (e) {
-    //     e.preventDefault();
-    //     $.magnificPopup.close();
-    // });
-
-
     /*----------------------------------------------------*/
     /*	Flexslider
     /*----------------------------------------------------*/
@@ -107,51 +87,6 @@ jQuery(document).ready(function ($) {
         animationSpeed: 600,
         randomize: false,
     });
-
-    /*----------------------------------------------------*/
-    /*	contact form
-    ------------------------------------------------------*/
-
-    // $('form#contactForm button.submit').click(function() {
-
-    //    $('#image-loader').fadeIn();
-
-    //    var contactName = $('#contactForm #contactName').val();
-    //    var contactEmail = $('#contactForm #contactEmail').val();
-    //    var contactSubject = $('#contactForm #contactSubject').val();
-    //    var contactMessage = $('#contactForm #contactMessage').val();
-
-    //    var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-    //             '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
-
-    //    $.ajax({
-
-    //       type: "POST",
-    //       url: "inc/sendEmail.php",
-    //       data: data,
-    //       success: function(msg) {
-
-    //          // Message was sent
-    //          if (msg == 'OK') {
-    //             $('#image-loader').fadeOut();
-    //             $('#message-warning').hide();
-    //             $('#contactForm').fadeOut();
-    //             $('#message-success').fadeIn();   
-    //          }
-    //          // There was an error
-    //          else {
-    //             $('#image-loader').fadeOut();
-    //             $('#message-warning').html(msg);
-    //             $('#message-warning').fadeIn();
-    //          }
-
-    //       }
-
-    //    });
-    //    return false;
-    // });
-
-
 });
 
 

@@ -27,7 +27,8 @@ function Project({ data }) {
         var projects = data.projects.map(function (project) {
             var projectImage = 'portfolio/' + project.image;
             return <div key={project.title} className="project">
-                <div className="item-wrap">
+                {/* project.id%2*300 => delay animation for each pair of project */}
+                <div className="item-wrap" data-aos="flip-right" data-aos-delay={project.id%3*150} data-aos-duration="1000">
                     <img alt={project.title} src={projectImage} />
                     <div className="overlay">
                         <div className="project-item">
@@ -56,7 +57,7 @@ function Project({ data }) {
     }
 
     return (
-        <div id="project">
+        <section id="project">
             {/* <button onClick={printMe} style={style}>print</button> */}
             <div className="project-body">
                 <h3>CHECK OUT SOME OF MY PROJECTS</h3>
@@ -64,33 +65,6 @@ function Project({ data }) {
                     {projects}
 
                 </div>
-
-                {/* <div className={show ? "modal" : "m-hidden"}
-                    onClick={(e) => handleClick(e)}
-                >
-                    <div className="modal-contents" onClick={e => e.stopPropagation()}>
-                        <div>
-                            <iframe width="420" height="315"
-                                ref={iframe}
-                                src={data?.projects[0].url}
-                                frameBorder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen>
-                            </iframe>
-                            <h3>{data?.projects[0].content.title}</h3>
-                            <a href={data?.projects[0].content.url} target="_blank">
-                                {data?.projects[0].content.url}
-                            </a>
-                            <hr />
-                            <p>{data?.projects[0].content.description}</p>
-                            <div>
-                                <button>Github</button>
-                                <i className="fas fa-window-close fa-2x" onClick={(e) => handleClick(e)}></i>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div> */}
 
                 {data && id !== -1 &&
                     <div className={show ? "modal" : "m-hidden"}
@@ -122,7 +96,7 @@ function Project({ data }) {
                     </div>}
             </div>
 
-        </div>
+        </section>
     )
 }
 

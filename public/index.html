@@ -17,8 +17,10 @@
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
   <link id="theme-style" rel="stylesheet" type="text/css" href="">
-  <title>Tuan Pham | Developer</title>
+  <!-- animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+  <title>Tuan Pham | Developer</title>
 </head>
 
 <body>
@@ -38,12 +40,19 @@
   <script src="js/init.js"></script>
 
   <script language="javascript" type="text/javascript">
-    $(function(){
-        $('.handleClick').click(function(){      
-            $('iframe').attr('src', $('iframe').attr('src'));
-        });
+    $(function () {
+      $('.handleClick').click(function () {
+        $('iframe').attr('src', $('iframe').attr('src'));
+      });
     });
-    </script>
+  </script>
+
+  <!-- animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>

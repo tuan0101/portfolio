@@ -3,7 +3,7 @@ import '../css/footer.css';
 
 function Footer() {
     return (
-        <div id="footer">
+        <footer id="footer">
             <a className="smoothscroll" title="Back to Top" href="#home">
             <div className="up-arrow">
                 <i className="fas fa-angle-double-up fa-2x"></i>
@@ -20,7 +20,7 @@ function Footer() {
                 </a>
             </div>
             <div className="author">Tuan Pham <span>©2020</span></div>
-        </div>
+        </footer>
     )
 }
 

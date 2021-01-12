@@ -1,7 +1,6 @@
-#hom {
+#home {
    /* height: 100%;
    overflow: hidden; */
-   background-color: white;
    min-width: 375px;
 }
 
@@ -50,6 +49,11 @@
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
+ul#nav li > a:hover{
+   color: #F06000;
+   font-size: 12px;
+   transition: 0.3s;
+}
 
 /* ------------------------------------------------------------------ */
 /*  Home

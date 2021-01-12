@@ -3,7 +3,7 @@ import '../css/contact.css';
 
 function Contact({ data }) {
     return (
-        <div id="contact">
+        <section id="contact">
             <div className="info">
 
                 <h5>Address and Phone</h5>
@@ -18,7 +18,7 @@ function Contact({ data }) {
                 <i className="far fa-envelope fa-2x"></i>
                 <p>tuanpham@oakland.edu</p>
             </div>
-        </div>
+        </section>
     )
 }
 

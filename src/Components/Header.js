@@ -7,7 +7,7 @@ function Header() {
             <nav id="nav-wrap">
 
                 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-                <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+                <a className="mobile-btn" href="#about" title="Hide navigation">Hide navigation</a>
 
                 <ul id="nav" className="nav">
                     <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
@@ -19,7 +19,7 @@ function Header() {
 
             </nav>
 
-            <div className="banner">
+            <div className="banner" data-aos="zoom-in" data-aos-duration="1200">
                 <div className="banner-text">
                     <h1 className="responsive-headline">
                         I'm <span className="name">Tuan Pham</span>
