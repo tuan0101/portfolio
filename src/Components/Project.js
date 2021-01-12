@@ -43,7 +43,6 @@ function Project({ data }) {
     }
 
     const stopVideo = function () {
-        // console.log('iframe.src', iframe.current.src);
         var iframeSrc = iframe.current.src;
         iframe.current.src = iframeSrc;
     };
@@ -51,7 +50,6 @@ function Project({ data }) {
     const handleClick = (e) => {
         stopVideo();
         if (e.target.className !== "modal-contents") {
-            // console.log('e.target.className', e.target.className);
             setShow(false);
         }
     }
