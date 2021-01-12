@@ -1,0 +1,306 @@
+@media only screen and (max-width: 1024px) {
+
+    /* header styles
+   ------------------------------------------------------------------ */
+
+   header .banner-text h1 {
+      font: 80px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;
+      margin: 0 auto 12px auto;
+   }
+
+      /* Project
+   -------------------------------------------------------------------- */
+   #project .project {
+      /* margin: 10px auto; */
+      flex: 0 1 45%;
+  }
+
+}
+
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+    /* header styles
+   ------------------------------------------------------------------ */
+
+   /* nav-wrap */
+   #home > #nav-wrap {
+      font: 11px 'opensans-bold', sans-serif;
+      letter-spacing: 1.5px;
+   }
+
+   #home > .banner {
+      left: 10% ;
+      right: 10%;
+   }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+   /* header styles
+  ------------------------------------------------------------------ */
+  /* nav-wrap */
+   #home {
+      overflow: hidden;
+   }
+
+  #home #nav-wrap {
+   font: 10px 'opensans-bold', sans-serif;
+   font-weight: bold;
+   letter-spacing: 1.5px;
+   display: block !important;
+   background: transparent !important;
+   width: auto;
+   height: auto;
+   position: fixed;
+   top: 0;
+   right: 0;
+   
+   }
+
+  #nav-wrap > a {
+   width: 48px;
+   height: 48px;
+   background-color: #CC5200;
+   position: relative;
+   border-radius: 10%;
+   float: right;
+
+   font: 0/0 a;
+   top: 3px;
+   right: 10px;
+   }
+
+	#nav-wrap > a:before,
+   #nav-wrap > a:after {
+	   position: absolute;
+		border: 2px solid #fff;
+		top: 35%;
+		left: 25%;
+		right: 25%;
+      content: '';
+   }
+   #nav-wrap > a:after { top: 60%; }
+   
+   /* toggle buttons */
+   #nav-wrap:not( :target ) > a:first-of-type,
+   #nav-wrap:target > a:last-of-type  {
+      display: block;
+   }
+
+   #nav-wrap:target .nav {
+      display: block;
+   }
+   #nav-wrap .nav {
+      display: none;
+      font-size: 12px;
+      font-weight: 800;
+      height: auto;
+      background-color: #343538;
+      position: relative;
+      flex-direction: column;
+
+      padding: 10px 0px 10px 10px;
+      margin-left: 0px;
+      top: 10px;
+      right: 20px;
+      margin-right: auto !important;
+      border-radius: 1%;
+      clear: right;
+
+   }
+
+   #nav-wrap .nav > li {
+      width: 100%;
+      padding: 10px 0px;
+      text-align: right;
+      border-bottom: 1px solid rgba(117, 107, 107, 0.5);
+   }
+
+   #nav-wrap .nav > li:last-child {
+      border: none;
+   }
+
+   #nav-wrap .nav > li:hover {
+      background-color: rgb(122, 117, 117);
+   }
+
+   /* About Section
+   -------------------------------------------------------------------- */
+   #about .profile-pic { display: none; }
+   #about .download .button {
+      width: 100%;
+      text-align: center;
+      padding: 15px 20px;
+   }
+   #about .main-col { padding-right: 30px; }
+   
+   #about .row {
+      display: block;
+   }
+   #about .column-left { 
+      width: 95%;
+      margin: 0 20px;
+   }
+
+   #about .column-left > p {
+      padding-bottom: 0;
+   }
+
+   #about .column-right { 
+      width: 100%;
+      margin: 20px 20px;
+   }
+
+   .column-right > .bars {
+      width: 90%;
+
+   }
+
+   .column-right > .bars > .skills {
+      padding: 0;
+   }
+
+   .row > .column-left  p {
+      padding-right: 10px;
+      font-size: 12pt;
+   }
+
+   /* About
+   -------------------------------------------------------------------- */
+   #project .project {
+      flex: 0 1 100%;
+  }
+
+  #project .project-item > h5 {
+   font-size: calc(10pt + 1vw);
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+/* About
+   -------------------------------------------------------------------- */
+   #about> .soft-skill {
+      display: block;
+      height: 300px;
+   }
+   #about> .soft-skill > div {
+      width: 100%;
+      height: 150px;
+   }
+
+   #about .my-skill {
+      max-width: none;
+   }
+
+/* Education
+   -------------------------------------------------------------------- */
+   #education > div {
+      display: block !important;
+      justify-content: center !important;
+   }
+
+   #education .minor-col {
+      padding: 0;
+   }
+
+   #education .minor-col >h1 {
+      width: 100%;
+      text-align: center;
+   }
+
+   #education .main-col> div {
+      text-align: center;
+      padding: 0 10px;
+      margin-right: 0px;
+   }
+
+   #education .main-col> div > .info {
+      font-size: 12.5pt;
+   }
+
+
+   #education .school > div {
+      border-bottom: 1px solid rgb(182, 172, 172);
+      margin-bottom: 20px;
+   }
+
+   .education, .work {
+      border-bottom: none !important;
+   }
+
+   #education .date {
+      font-size: 12.5pt;
+      /* margin-top: 6px; */
+   }
+
+   /* Contact
+   -------------------------------------------------------------------- */
+   #contact {
+      display: block !important;
+   }
+}
+
+@media only screen and (max-width: 495px) {
+   .modal-contents > iframe{
+       width: 100% !important;
+   }
+   .modal-contents {
+       width: 90%;
+   }
+   
+}
+
+@media only screen and (max-width: 480px) {
+   /* header styles
+   -------------------------------------------------------------------- */
+   header .banner { 
+      padding-top: 15px; 
+      min-width: 300px;
+   }
+   header .banner-text h1 {
+      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      margin: 0 auto 24px auto;
+   }
+
+   header {
+      position: absolute;
+   }
+
+
+   /* About styles
+   -------------------------------------------------------------------- */
+   #about> .my-skill {
+      width: fit-content;
+   }
+
+   #about .each-skill {
+      font-size: 11pt;
+   }
+    
+   #about .bars{
+      height: fit-content;
+   }
+
+   /* Projects
+   -------------------------------------------------------------------- */
+   .modal-contents {
+      width: 100%;
+  }
+
+  #project .project-item > button {
+      font: 600 11pt/16pt 'opensans-bold', sans-serif ;
+  }
+
+  #project .modal-contents {
+      /* position: relative; */
+      transform: scale(.75);
+      top: 10px;
+  }
+   
+}

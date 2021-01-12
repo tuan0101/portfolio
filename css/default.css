@@ -1,0 +1,67 @@
+@import url("fonts.css");
+
+:root{
+	--mainColor:#ffffff;
+	--secondaryColor:#585858;
+	--descriptiveColor: #6E7881;
+  	--elementColor: #5ac79d;
+	--borderColor:#c1c1c1;
+
+	--mainText:black;
+	--secondaryText:#535050;
+
+	--themeDotBorder:#24292e;
+
+	--previewBg:rgb(251, 249, 243, 0.8);
+	--previewShadow:#f0ead6;
+
+	--buttonColor:black;
+}
+
+
+
+/* .three { width: 30%;} */
+/* .nine {width: 60%;} */
+button {
+    position: relative;
+    color: white;
+    border: 0.1px solid white;
+    background-color: #5ac79d;
+    font: 700 12pt/20pt 'opensans-bold', sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+	background-color: #17694a;
+}
+
+
+h4 {
+	font-family: "raleway-bold";
+	text-align: center;
+	font-size: clamp(26pt, 4vw, 40pt);
+	font-weight: 700;
+	/* color: rgb(235, 230, 230); */
+	color: var(--mainText);
+	margin: 50px 0 20px 0;
+}
+
+h4 > span {
+	border-bottom: 3px solid var(--mainText);
+    padding-bottom: 6px;
+}
+
+.opaque { background-color: #333 !important;}
+
+ @keyframes move-down {
+	0% {top: 0px}
+    35% {top: 40px;  }
+    50% {top: -50px;  right: 50px;}
+    65% {top: -10px; }
+    80% {top: -5px; }
+    100% {top: 0px;  }
+}
+
+ 
