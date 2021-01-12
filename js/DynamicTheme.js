@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+
+// /portfolio/css for gh-page branch
 function setTheme(mode){
 	if(mode == 'light'){
 		document.getElementById('theme-style').href = '/portfolio/css/default.css'
