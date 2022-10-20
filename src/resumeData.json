@@ -3,19 +3,17 @@
     "name": "Tuan Pham",
     "occupation": "Software Developer",
     "bio": "I have serious passion for computer programming and love using it to solve problems around me. I enjoy using my obsessive attention to detail to bring ideas to life. That's why I'm excited to make a big impact at a high growth company.",
-    "email": "tuanpham@oakland.edu",
+    "email": "tuan.mipham@gmail.com",
     "phone": "586 553 3617",
     "address": {
-      "street": "22611 Karam Ct",
-      "city": "Warren",
-      "state": "MI",
-      "zip": "48091"
+      "city": "Antioch",
+      "state": "CA",
+      "zip": "94531"
     },
     "address1": {
-      "street": "34035 Williamsburg Ct",
-      "city": "Sterling Heights",
-      "state": "MI",
-      "zip": "48312"
+      "city": "Antioch",
+      "state": "CA",
+      "zip": "94531"
     },
     "github": "https://github.com/tuan0101",
     "social": [
