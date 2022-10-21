@@ -45,52 +45,53 @@
       {
         "school": "Oakland University, MI",
         "degree": "Bachelor of Science, Computer Science",
-        "graduated": "Expected graduation May 2021",
-        "description": ""
-      },
-      {
-        "school": "Vietnam National University Ho Chi Minh City, Vietnam",
-        "degree": "Bachelor of Science, Information Technology",
-        "graduated": "Graduated in Mar 2013",
-        "description": "Globally recognized and ranked as the #5 university in Vietnam"
+        "graduated": "Apr 2017 - May 2021",
+        "description": "GPA: 3.89"
       }
     ],
     "works": [
       {
-        "company": "Focus Technology Co., Ltd, Ho Chi Minh city, Vietnam",
-        "title": "IT Support Technician",
-        "years": "May 2013 - Apr 2015",
-        "description": "Installed, configured, maintained and tested computer hardware, software, and peripheral equipment following established procedures"
+        "company": "BobaFace – Philadelphia, PA",
+        "title": "Full Stack Developer - remote",
+        "years": "Feb 2021 - Current",
+        "description": 
+        "Test and fine-tune the application, reducing the instances of bugs by 20%. \n Develop automation solution using C# to increase process efficiency of the design team.\nContribute to 10+ new app features along with their APIs.\nCreate & manage buckets on S3 and store DB and logs backup.\nUse AWS Lambda, DynamoDB, CloudWatch, S3, and Athena services to create reliable ranking and reward systems.\nInvolve in Architecture Modification to significantly reduce the burden onthe server."
+      },
+      {
+        "company": "Hype Math",
+        "title": "Unity Developer Intern",
+        "years": "Jan 2021 - Apr 2021",
+        "description":"Maintained and enhanced existing functionality, including debugging and fixing bugs.\nCollaborated with other graphic artists to develop new features of the app.\nAnalyzed and quickly resolved tool issues in order to meet deadlines for app goals."
       }
     ],
     "skills": [
       {
-        "name": "ReactJs",
-        "level": "85%"
-      },
-      {
-        "name": "JavaScript",
+        "name": "C#",
         "level": "90%"
       },
       {
-        "name": "Python",
+        "name": "JavaScript - ReactJS",
         "level": "80%"
       },
       {
-        "name": "C#",
-        "level": "85%"
-      },
-      {
-        "name": "C++",
-        "level": "75%"
-      },
-      {
-        "name": "Java",
+        "name": "Python",
         "level": "70%"
       },
       {
+        "name": "C++",
+        "level": "60%"
+      },
+      {
+        "name": "Java",
+        "level": "85%"
+      },
+      {
+        "name": "AWS",
+        "level": "65%"
+      },
+      {
         "name": "Git",
-        "level": "80%"
+        "level": "85%"
       }
     ]
   },

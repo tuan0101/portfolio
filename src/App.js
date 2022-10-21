@@ -29,8 +29,8 @@ class App extends Component {
         <Header />
         <About data={this.state.resumeData.resume}
                main={this.state.resumeData.main}/>
-        <Project data={this.state.resumeData.portfolio}/>
         <Education data={this.state.resumeData.resume}/>
+        <Project data={this.state.resumeData.portfolio}/>        
         <Contact data={this.state.resumeData.main}/>
         <Footer />
       </div>
